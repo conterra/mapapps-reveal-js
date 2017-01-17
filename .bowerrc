@@ -1,0 +1,5 @@
+{
+  "directory": "target/js",
+  "interactive": false,
+  "ignoredDependencies": ["headjs"]
+}

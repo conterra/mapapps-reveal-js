@@ -1,0 +1,6 @@
+{
+    "name": "reveal-js",
+    "dependencies": {
+        "reveal.js":"3.4.0"
+    }
+}
