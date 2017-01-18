@@ -69,7 +69,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
                 <artifactId>replacer</artifactId>
                 <version>1.5.3</version>
@@ -82,17 +82,17 @@
                         </goals>
                         <configuration>
                             <includes>
-                                <include>dgrid/package.json</include>                                
+                                <include>reveal.js/package.json</include>                                
                             </includes>                            
                             <regex>true</regex>
                             <replacements>
                                 <replacement>
-                                    <token>}$</token>
-                                    <value>,
-                                        "dependencies": {
-                                        "dojo": ">=1.8.9",
-                                        "dstore": "~1.0.3 || ~1.1.1"
-                                        }}</value>
+                                    <token>"dependencies"\s*:</token>
+                                    <value>"nodeDependencies":</value>
+                                </replacement>
+								<replacement>
+                                    <token>"reveal.js"</token>
+                                    <value>"reveal-js"</value>
                                 </replacement>
                             </replacements>
                         </configuration>
@@ -101,7 +101,7 @@
                 <configuration>
                     <basedir>${js.output.dir}</basedir>
                 </configuration>
-            </plugin>-->
+            </plugin>
             <plugin>
                 <groupId>de.conterra.jsregistry</groupId>
                 <artifactId>ct-jsregistry-maven-plugin</artifactId>
