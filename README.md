@@ -16,7 +16,7 @@ Upload the jar `mapapps-reveal-js.jar` to your map.apps installation.
 
 Note the provided `reveal-js` bundle provides only the reveal.js API.
 
-It is required by the [mappapps-map-slides](https://github.com/conterra/map-slides.js) project.
+It is required by the [mappapps-map-slides](https://github.com/conterra/mappapps-map-slides) project.
 
 ## Upgrade Instructions
 
