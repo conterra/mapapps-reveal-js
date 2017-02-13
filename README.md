@@ -4,7 +4,7 @@ This project converts the [reveal.js](https://github.com/hakimel/reveal.js) bowe
 
 The jar is called `mapapps-reveal-js.jar` and it contains the bundle `reveal-js`.
 
-## Changes on the bower version
+## Changes of the bower version
 
 * css is compressed
 * js is compressed
